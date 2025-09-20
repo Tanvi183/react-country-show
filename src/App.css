@@ -4,3 +4,19 @@
   padding: 2rem;
 }
 
+.card {
+  border: 2px solid gold;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.countries {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.visited-country{
+  background-color: aquamarine;
+}
